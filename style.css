@@ -1,0 +1,84 @@
+body{
+    
+    background-image: url("66.webp");
+   
+    background-size: cover;
+    margin:0;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+
+#form{
+    width:400px;
+    margin:20vh auto 0 auto;
+   
+    border-radius: 20px;
+    padding:20px;
+    background-attachment: fixed;
+    height: 550px;
+    background-image: url("67.jpg");
+    
+    color: azure;
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+h1:hover{
+    color: rgb(94, 94, 250);
+}
+
+#form button{
+  
+    color:rgb(20, 20, 3);
+    border:1px solid rgb(34,193,195) ;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 100px;
+    cursor:pointer;
+    font-size:20px;
+    width:40%;
+    
+    
+}
+#form button:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+#form a{
+    color: rgb(242, 245, 242);
+    margin-left: 270px;
+}
+#form a:hover{
+    color:yellowgreen;
+}
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size:15px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid rgb(219, 181, 8) ;
+}
+
+
+.input-group input{
+    color:rgb(14, 14, 13);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border-color:rgb(25, 202, 9);
+}
+
+.input-group.error input{
+    border-color:red;
+}
